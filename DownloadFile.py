@@ -11,3 +11,5 @@ driver = webdriver.Chrome(chrome_options=options)
 
 driver.get("https://www.whatsapp.com/download/")
 driver.find_element(By.XPATH, "//div[@class='feature__action']/a").click()
+
+print('test')
